@@ -2,7 +2,12 @@
 using namespace std;
 
 int main(){
-	cout << "Hello Git" << endl;
+	
+	string name;
+	cout << "Please enter your name: ";
+	cin >> name;
+
+	cout << "Hello "<< name << ", from GIT."<< endl;
 
 	return 0;
 
